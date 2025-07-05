@@ -31,7 +31,7 @@ const Features = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            How <span className="gradient-text">Dishcovery</span> Works
+            How <span className="gradient-text">Dishcoveřy</span> Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             We've reimagined how young adults connect, making it easier than ever to find your tribe through shared meals.

@@ -17,12 +17,16 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          <span className="gradient-text">Dishcovery</span>
+          <span className="gradient-text">Dishcoveřy</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto leading-relaxed">
           Meet like-minded strangers and discover new friendships over shared meals. 
           Your next best friend might be just one dinner away.
+        </p>
+        
+        <p className="text-lg text-muted-foreground/80 mb-8 max-w-xl mx-auto">
+          Brought to you by <span className="gradient-text font-semibold">COMMUNEÈ</span>
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
