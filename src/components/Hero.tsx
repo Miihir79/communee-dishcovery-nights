@@ -30,10 +30,10 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <Button className="btn-primary text-lg">
-            Join the Waitlist
+          <Button className="btn-primary text-lg" onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'}>
+            Book Your Seat
           </Button>
-          <Button variant="outline" className="btn-secondary text-lg">
+          <Button variant="outline" className="btn-secondary text-lg" onClick={() => window.location.href = 'https://www.instagram.com/communee.in/'}>
             Learn More
           </Button>
         </div>
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4 text-primary" />
-            <span>Your City</span>
+            <span>Ahmedabad</span>
           </div>
         </div>
       </div>
