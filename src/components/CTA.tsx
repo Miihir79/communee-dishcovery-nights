@@ -11,15 +11,15 @@ const CTA = () => {
           </h2>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Be among the first to experience meaningful connections over great food. 
-            Join our exclusive waitlist and get early access to Dishcoveřy events in your city.
+            Join our exclusive waitlist and you might get invite to Dishcoveřy.
           </p>
           
-          <Button className="btn-primary text-lg">
-            Join the Waitlist
+          <Button className="btn-primary text-lg" onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'}>
+            
           </Button>
           
           <p className="text-sm text-muted-foreground mt-6">
-            No spam, just updates on launch dates and exclusive early access.
+            No spam, just updates on launch dates and exclusive invites.
           </p>
         </div>
       </div>

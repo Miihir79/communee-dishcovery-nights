@@ -12,7 +12,7 @@ const Footer = () => {
         
         <div className="border-t border-border/50 pt-4">
           <p className="text-sm text-muted-foreground">
-            © 2024 COMMUNEÈ. All rights reserved. Made with ❤️ for building connections.
+            © 2025 COMMUNEÈ. All rights reserved. Made with ❤️ for building connections.
           </p>
         </div>
       </div>
