@@ -4,28 +4,28 @@ import { UserPlus, Calendar, MapPin, Coffee } from "lucide-react";
 const HowItWorks = () => {
   const steps = [
     {
-      icon: <UserPlus className="w-12 h-12 text-primary" />,
+      icon: <UserPlus className="w-12 h-12" style={{ color: '#FAFAFA' }} />,
       step: "01",
-      title: "Sign Up",
-      description: "Create your profile and tell us about your interests, dietary preferences, and what you're looking for in new friendships."
+      title: "Fill the Form",
+      description: "Tell us about your interests, dietary preferences, and what you're looking for in new friendships."
     },
     {
-      icon: <Calendar className="w-12 h-12 text-primary" />,
+      icon: <Calendar className="w-12 h-12" style={{ color: '#FAFAFA' }} />,
       step: "02",
       title: "Get Matched",
       description: "Our algorithm pairs you with 5-7 like-minded individuals for an upcoming dinner based on compatibility and availability."
     },
     {
-      icon: <MapPin className="w-12 h-12 text-primary" />,
+      icon: <MapPin className="w-12 h-12" style={{ color: '#FAFAFA' }} />,
       step: "03",
       title: "Meet Up",
       description: "Join your group at a carefully selected restaurant where conversation flows naturally and connections happen organically."
     },
     {
-      icon: <Coffee className="w-12 h-12 text-primary" />,
+      icon: <Coffee className="w-12 h-12" style={{ color: '#FAFAFA' }} />,
       step: "04",
       title: "Stay Connected",
-      description: "Keep the conversation going with your new friends through our in-app chat and join future events together."
+      description: "Keep the conversation going with your new Friends and join future events together!"
     }
   ];
 

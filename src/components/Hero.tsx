@@ -22,7 +22,7 @@ const Hero = () => {
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-2xl mx-auto leading-relaxed">
           Meet like-minded strangers and discover new friendships over shared meals. 
-          Your next best friend might be just one dinner away.
+          Your best friend might be just one dinner away.
         </p>
         
         <p className="text-lg text-muted-foreground/80 mb-8 max-w-xl mx-auto">
