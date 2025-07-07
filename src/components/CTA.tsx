@@ -15,7 +15,7 @@ const CTA = () => {
           </p>
           
           <Button className="btn-primary text-lg" onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'}>
-            
+            Book Your Seat
           </Button>
           
           <p className="text-sm text-muted-foreground mt-6">
