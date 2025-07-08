@@ -22,8 +22,12 @@ const DishcoveryEvent = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="relative py-16 px-4 overflow-hidden">
+        {/* Background gradient orbs */}
+        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-blue-400/20 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        
+        <div className="max-w-4xl mx-auto text-center relative z-10">
           <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium font-montserrat mb-4">
               Upcoming Event
@@ -68,15 +72,6 @@ const DishcoveryEvent = () => {
         </div>
       </section>
 
-      {/* Ad Space 1 */}
-      <section className="py-8 px-4 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="h-32 bg-gray-200 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500 font-montserrat">Advertisement Space</p>
-          </div>
-        </div>
-      </section>
-
       {/* Event Details */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
@@ -94,7 +89,7 @@ const DishcoveryEvent = () => {
                 <CardTitle className="text-gray-900 font-unbounded">Meaningful Connections</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-montserrat">
+                <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
                   Our matching algorithm pairs you with people who share similar interests, values, and life goals.
                 </p>
               </CardContent>
@@ -106,7 +101,7 @@ const DishcoveryEvent = () => {
                 <CardTitle className="text-gray-900 font-unbounded">Curated Experiences</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-montserrat">
+                <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
                   Hand-picked restaurants and thoughtfully planned activities that encourage natural conversation.
                 </p>
               </CardContent>
@@ -118,20 +113,11 @@ const DishcoveryEvent = () => {
                 <CardTitle className="text-gray-900 font-unbounded">Small Groups</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 font-montserrat">
+                <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
                   Intimate group sizes of 6-8 people ensure everyone gets to know each other properly.
                 </p>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Ad Space 2 */}
-      <section className="py-8 px-4 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="h-40 bg-gray-200 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-            <p className="text-gray-500 font-montserrat">Advertisement Space</p>
           </div>
         </div>
       </section>
