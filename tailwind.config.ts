@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 
 export default {
@@ -15,6 +16,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Unbounded", "system-ui", "sans-serif"],
+        unbounded: ["Unbounded", "system-ui", "sans-serif"],
+        montserrat: ["Montserrat", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
