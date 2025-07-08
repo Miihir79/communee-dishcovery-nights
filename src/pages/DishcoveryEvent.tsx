@@ -14,7 +14,7 @@ const DishcoveryEvent = () => {
               <h1 className="text-2xl font-bold text-primary font-unbounded">COMMUNEÈ</h1>
               <p className="text-sm text-gray-600 font-montserrat">Building meaningful connections</p>
             </div>
-            <Button className="bg-primary hover:bg-primary/90 text-white font-montserrat" onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'>
+            <Button className="bg-primary hover:bg-primary/90 text-white font-montserrat" onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'}>
               Book Your Seat
             </Button>
           </div>
