@@ -86,7 +86,7 @@ const DishcoveryEvent = () => {
             <Card className="border-gray-200 shadow-sm">
               <CardHeader>
                 <Heart className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="text-gray-900 font-unbounded">Meaningful Connections</CardTitle>
+                <CardTitle className="font-unbounded" style={{ color: '#FAFAFA' }}>Meaningful Connections</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
@@ -98,7 +98,7 @@ const DishcoveryEvent = () => {
             <Card className="border-gray-200 shadow-sm">
               <CardHeader>
                 <Star className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="text-gray-900 font-unbounded">Curated Experiences</CardTitle>
+                <CardTitle className="font-unbounded" style={{ color: '#FAFAFA' }}>Curated Experiences</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
@@ -110,7 +110,7 @@ const DishcoveryEvent = () => {
             <Card className="border-gray-200 shadow-sm">
               <CardHeader>
                 <Users className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="text-gray-900 font-unbounded">Small Groups</CardTitle>
+                <CardTitle className="font-unbounded" style={{ color: '#FAFAFA' }}>Small Groups</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
@@ -123,8 +123,12 @@ const DishcoveryEvent = () => {
       </section>
 
       {/* How It Works */}
-      <section className="py-16 px-4">
-        <div className="max-w-4xl mx-auto">
+      <section className="relative py-16 px-4 overflow-hidden">
+        {/* Background gradient orbs */}
+        <div className="absolute top-10 right-20 w-80 h-80 bg-primary/15 rounded-full blur-3xl animate-pulse delay-500"></div>
+        <div className="absolute bottom-10 left-20 w-64 h-64 bg-blue-300/15 rounded-full blur-3xl animate-pulse delay-2000"></div>
+        
+        <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4 font-unbounded">How It Works</h2>
             <p className="text-lg text-gray-600 font-montserrat">Simple steps to your next great friendship</p>
