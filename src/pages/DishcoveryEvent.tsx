@@ -83,37 +83,37 @@ const DishcoveryEvent = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <Card className="border-gray-200 shadow-sm">
+            <Card className="border-gray-200 border shadow-sm" style={{ color: '#FAFAFA' }}>
               <CardHeader>
                 <Heart className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="font-unbounded" style={{ color: '#FAFAFA' }}>Meaningful Connections</CardTitle>
+                <CardTitle className="font-unbounded text-gray-950">Meaningful Connections</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
+                <p className="font-montserrat text-gray-950">
                   Our matching algorithm pairs you with people who share similar interests, values, and life goals.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="border-gray-200 shadow-sm">
+            <Card className="border-gray-200 border shadow-sm" style={{ color: '#FAFAFA' }}>
               <CardHeader>
                 <Star className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="font-unbounded" style={{ color: '#FAFAFA' }}>Curated Experiences</CardTitle>
+                <CardTitle className="font-unbounded text-gray-950" >Curated Experiences</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
+                <p className="font-montserrat text-gray-950">
                   Hand-picked restaurants and thoughtfully planned activities that encourage natural conversation.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="border-gray-200 shadow-sm">
+            <Card className="border-gray-200 border shadow-sm" style={{ color: '#FAFAFA' }}>
               <CardHeader>
                 <Users className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="font-unbounded" style={{ color: '#FAFAFA' }}>Small Groups</CardTitle>
+                <CardTitle className="font-unbounded text-gray-950">Small Groups</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="font-montserrat" style={{ color: '#FAFAFA' }}>
+                <p className="font-montserrat text-gray-950">
                   Intimate group sizes of 6-8 people ensure everyone gets to know each other properly.
                 </p>
               </CardContent>

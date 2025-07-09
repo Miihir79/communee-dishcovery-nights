@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          <span className="gradient-text">Dishcoveřy</span>
+          <span className="gradient-text">Dishcoveřy </span>
           <span>🍽️</span>
         </h1>
         
