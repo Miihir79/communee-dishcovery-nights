@@ -83,7 +83,7 @@ const DishcoveryEvent = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <Card className="border-gray-200 border shadow-sm" style={{ color: '#FAFAFA' }}>
+            <Card className="border-gray-200 border shadow-sm" style={{ backgroundColor: '#FAFAFA' }}>
               <CardHeader>
                 <Heart className="w-12 h-12 text-primary mb-4" />
                 <CardTitle className="font-unbounded text-gray-950">Meaningful Connections</CardTitle>
@@ -95,7 +95,7 @@ const DishcoveryEvent = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-gray-200 border shadow-sm" style={{ color: '#FAFAFA' }}>
+            <Card className="border-gray-200 border shadow-sm" style={{ backgroundColor: '#FAFAFA' }}>
               <CardHeader>
                 <Star className="w-12 h-12 text-primary mb-4" />
                 <CardTitle className="font-unbounded text-gray-950" >Curated Experiences</CardTitle>
@@ -107,7 +107,7 @@ const DishcoveryEvent = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-gray-200 border shadow-sm" style={{ color: '#FAFAFA' }}>
+            <Card className="border-gray-200 border shadow-sm" style={{ backgroundColor: '#FAFAFA' }}>
               <CardHeader>
                 <Users className="w-12 h-12 text-primary mb-4" />
                 <CardTitle className="font-unbounded text-gray-950">Small Groups</CardTitle>
