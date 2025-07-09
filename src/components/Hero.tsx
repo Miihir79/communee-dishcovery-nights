@@ -12,11 +12,11 @@ const Hero = () => {
       <div className="text-center max-w-4xl mx-auto relative z-10">
         <div className="mb-6">
           <span className="inline-block px-4 py-2 bg-primary/20 text-primary rounded-full text-sm font-medium mb-4">
-            Coming Soon
+            Early Bird Access
           </span>
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        <h1 className="text-4xl md:text-7xl font-bold mb-6 leading-tight">
           <span className="gradient-text">Dishcoveřy </span>
           <span>🍽️</span>
         </h1>
@@ -42,7 +42,7 @@ const Hero = () => {
         <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
             <Calendar className="w-4 h-4 text-primary" />
-            <span>Weekly Events</span>
+            <span>19th July, 8pm</span>
           </div>
           <div className="flex items-center gap-2">
             <Users className="w-4 h-4 text-primary" />

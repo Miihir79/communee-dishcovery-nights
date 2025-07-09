@@ -34,7 +34,7 @@ const DishcoveryEvent = () => {
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 font-unbounded">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900 font-unbounded">
             Dishcoveřy 🍽️
           </h1>
           
@@ -46,7 +46,7 @@ const DishcoveryEvent = () => {
           <div className="flex flex-wrap justify-center gap-6 mb-8 text-gray-600 font-montserrat">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>Every Weekend</span>
+              <span>19th July, 8pm</span>
             </div>
             <div className="flex items-center gap-2">
               <Users className="w-5 h-5 text-primary" />
