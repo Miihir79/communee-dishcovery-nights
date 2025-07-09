@@ -12,7 +12,7 @@ const DishcoveryEvent = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-primary font-unbounded">COMMUNEÈ</h1>
-              <p className="text-sm text-gray-600 font-montserrat">Building meaningful connections</p>
+              <p className="text-sm text-gray-600 font-montserrat">Enabling IRL Experiences</p>
             </div>
             <Button className="bg-primary hover:bg-primary/90 text-white font-montserrat" onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'}>
               Book Your Seat
@@ -67,7 +67,7 @@ const DishcoveryEvent = () => {
             className="bg-primary hover:bg-primary/90 text-white px-12 py-4 text-lg font-semibold font-montserrat"
             onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'}
           >
-            Reserve Your Spot Now
+            Reserve Your Spot
           </Button>
         </div>
       </section>
@@ -90,7 +90,7 @@ const DishcoveryEvent = () => {
               </CardHeader>
               <CardContent>
                 <p className="font-montserrat text-gray-950">
-                  Our matching algorithm pairs you with people who share similar interests, values, and life goals.
+                  Our matching algorithm pairs you with people with same vibe enusring yu have a great time. PS. This is not a dating event.
                 </p>
               </CardContent>
             </Card>
@@ -187,7 +187,7 @@ const DishcoveryEvent = () => {
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-xl font-bold text-gray-900 mb-2 font-unbounded">COMMUNEÈ</h3>
           <p className="text-gray-600 font-montserrat mb-4">
-            Building meaningful connections in your city.
+            Enabling In Real Life Conections.
           </p>
           <p className="text-sm text-gray-500 font-montserrat">
             © 2025 COMMUNEÈ. All rights reserved.
