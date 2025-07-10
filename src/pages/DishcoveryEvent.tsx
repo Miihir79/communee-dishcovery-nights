@@ -40,25 +40,25 @@ const DishcoveryEvent = () => {
           
           <p className="text-xl md:text-2xl text-gray-600 mb-4 max-w-2xl mx-auto font-montserrat leading-relaxed">
             Meet like-minded strangers and discover new friendships over shared meals. 
-            <b>Your best friend might be just one dinner away</b>.
+            <span className="font-medium"></span>Your best friend might be just one dinner away</span>.
           </p>
           
           <div className="flex flex-wrap justify-center gap-6 mb-8 text-gray-600 font-montserrat">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-primary" />
-              <span>19th July, 8pm</span>
+              <span className="font-medium">19th July, 8pm</span>
             </div>
             <div className="flex items-center gap-2">
               <Users className="w-5 h-5 text-primary" />
-              <span>6-8 People</span>
+              <span className="font-medium">6-8 People</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-primary" />
-              <span>Ahmedabad</span>
+              <span className="font-medium">Ahmedabad</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-5 h-5 text-primary" />
-              <span>2-3 Hours</span>
+              <span className="font-medium">2-3 Hours</span>
             </div>
           </div>
 
