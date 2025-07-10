@@ -39,7 +39,7 @@ const DishcoveryEvent = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-4 max-w-2xl mx-auto font-montserrat leading-relaxed">
-            Dinner with strangers who match your vibe
+            Dinner with strangers who match your vibe. 
             <span className="font-medium">Your best friend might be just one dinner away</span>.
           </p>
           
@@ -163,7 +163,7 @@ const DishcoveryEvent = () => {
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">1</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Register 📝</h3>
+                <h3 className="text-xl font-medium text-gray-900 mb-2 font-unbounded">Register 📝</h3>
                 <p className="text-gray-600 font-montserrat">Select your dinner date and tell us about your interests and what you're looking for in new friendships.</p>
               </div>
             </div>
@@ -171,7 +171,7 @@ const DishcoveryEvent = () => {
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">2</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Get the Invite 📩</h3>
+                <h3 className="text-xl font-medium text-gray-900 mb-2 font-unbounded">Get the Invite 📩</h3>
                 <p className="text-gray-600 font-montserrat">We vet every profile and send you an invite to the table which matches your vibe.</p>
               </div>
             </div>
@@ -179,7 +179,7 @@ const DishcoveryEvent = () => {
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">3</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Reserve Your Spot 💰</h3>
+                <h3 className="text-xl font-medium text-gray-900 mb-2 font-unbounded">Reserve Your Spot 💰</h3>
                 <p className="text-gray-600 font-montserrat">Reserve your spot at the table by paying a nominal fee. Grab the Early bird discount while you can.</p>
               </div>
             </div>
@@ -187,7 +187,7 @@ const DishcoveryEvent = () => {
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">4</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Show Up ✨</h3>
+                <h3 className="text-xl font-medium text-gray-900 mb-2 font-unbounded">Show Up ✨</h3>
                 <p className="text-gray-600 font-montserrat">Join your group at a selected restaurant and let the night unfold itself!</p>
               </div>
             </div>
