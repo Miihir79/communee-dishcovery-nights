@@ -1,3 +1,4 @@
+
 import { Calendar, Users, MapPin, Clock, Heart, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -160,7 +161,7 @@ const DishcoveryEvent = () => {
 
           <div className="space-y-8">
             <div className="flex items-center gap-6">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">1</div>
+              <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">1</div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Fill the Form</h3>
                 <p className="text-gray-600 font-montserrat">Tell us about your interests and what you're looking for in new friendships.</p>
@@ -168,7 +169,7 @@ const DishcoveryEvent = () => {
             </div>
 
             <div className="flex items-center gap-6">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">2</div>
+              <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">2</div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Get Matched</h3>
                 <p className="text-gray-600 font-montserrat">We pair you with compatible people for an upcoming dinner experience.</p>
@@ -176,7 +177,15 @@ const DishcoveryEvent = () => {
             </div>
 
             <div className="flex items-center gap-6">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">3</div>
+              <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">3</div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Reserve Your Spot</h3>
+                <p className="text-gray-600 font-montserrat">Confirm your attendance and secure your place at the dinner event.</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-6">
+              <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">4</div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Meet & Connect</h3>
                 <p className="text-gray-600 font-montserrat">Join your group at a selected restaurant and let the magic happen!</p>
