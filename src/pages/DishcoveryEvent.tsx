@@ -40,7 +40,7 @@ const DishcoveryEvent = () => {
           
           <p className="text-xl md:text-2xl text-gray-600 mb-4 max-w-2xl mx-auto font-montserrat leading-relaxed">
             Meet like-minded strangers and discover new friendships over shared meals. 
-            Your best friend might be just one dinner away.
+            <b>Your best friend might be just one dinner away</b>.
           </p>
           
           <div className="flex flex-wrap justify-center gap-6 mb-8 text-gray-600 font-montserrat">
@@ -156,7 +156,7 @@ const DishcoveryEvent = () => {
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4 font-unbounded">How It Works</h2>
-            <p className="text-lg text-gray-600 font-montserrat">Simple steps to your next great friendship</p>
+            <p className="text-lg text-gray-600 font-montserrat">4 Simple steps to your next great friendship</p>
           </div>
 
           <div className="space-y-8">
@@ -188,7 +188,7 @@ const DishcoveryEvent = () => {
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">4</div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Show Up ✨</h3>
-                <p className="text-gray-600 font-montserrat">Join your group at a selected restaurant and let the night unflod itself!</p>
+                <p className="text-gray-600 font-montserrat">Join your group at a selected restaurant and let the night unfold itself!</p>
               </div>
             </div>
           </div>
