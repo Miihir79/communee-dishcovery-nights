@@ -90,7 +90,7 @@ const DishcoveryEvent = () => {
               </CardHeader>
               <CardContent>
                 <p className="font-montserrat text-gray-950">
-                  Our matching algorithm pairs you with people with same vibe enusring yu have a great time. PS. This is not a dating event.
+                  Our matching algorithm pairs you with people with same vibe enusring you have a great time. PS. This is not a dating event.
                 </p>
               </CardContent>
             </Card>
@@ -98,11 +98,11 @@ const DishcoveryEvent = () => {
             <Card className="border-gray-200 border shadow-sm" style={{ backgroundColor: '#FAFAFA' }}>
               <CardHeader>
                 <Star className="w-12 h-12 text-primary mb-4" />
-                <CardTitle className="font-unbounded text-gray-950" >Curated Experiences</CardTitle>
+                <CardTitle className="font-unbounded text-gray-950">Top Cafes</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="font-montserrat text-gray-950">
-                  Hand-picked restaurants and thoughtfully planned activities that encourage natural conversation.
+                  Hand-picked restaurants ensuring that you always have great food, new cafe every time!
                 </p>
               </CardContent>
             </Card>
@@ -163,32 +163,32 @@ const DishcoveryEvent = () => {
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">1</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Fill the Form</h3>
-                <p className="text-gray-600 font-montserrat">Tell us about your interests and what you're looking for in new friendships.</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Register 📝</h3>
+                <p className="text-gray-600 font-montserrat">Select your dinner date and tell us about your interests and what you're looking for in new friendships.</p>
               </div>
             </div>
 
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">2</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Get Matched</h3>
-                <p className="text-gray-600 font-montserrat">We pair you with compatible people for an upcoming dinner experience.</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Get the Invite 📩</h3>
+                <p className="text-gray-600 font-montserrat">We vet every profile and send you an invite to the table which matches your vibe.</p>
               </div>
             </div>
 
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">3</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Reserve Your Spot</h3>
-                <p className="text-gray-600 font-montserrat">Confirm your attendance and secure your place at the dinner event.</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Reserve Your Spot 💰</h3>
+                <p className="text-gray-600 font-montserrat">Reserve your spot at the table by paying a nominal fee. Grab the Early bird discount while you can.</p>
               </div>
             </div>
 
             <div className="flex items-center gap-6">
               <div className="w-12 h-12 min-w-12 min-h-12 flex-shrink-0 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg font-montserrat">4</div>
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Meet & Connect</h3>
-                <p className="text-gray-600 font-montserrat">Join your group at a selected restaurant and let the magic happen!</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2 font-unbounded">Show Up ✨</h3>
+                <p className="text-gray-600 font-montserrat">Join your group at a selected restaurant and let the night unflod itself!</p>
               </div>
             </div>
           </div>
