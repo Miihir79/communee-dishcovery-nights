@@ -1,4 +1,3 @@
-
 import { Calendar, Users, MapPin, Clock, Heart, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -129,29 +128,21 @@ const DishcoveryEvent = () => {
         <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-white">
-              <h3 className="text-2xl font-bold mb-3 font-unbounded">100+ Connections</h3>
-              <p className="text-blue-100 font-montserrat">Made through our events</p>
-            </div>
-            <div className="text-white">
-              <h3 className="text-2xl font-bold mb-3 font-unbounded">Zero Awkwardness</h3>
-              <p className="text-blue-100 font-montserrat">Guaranteed good vibes only</p>
-            </div>
-            <div className="text-white">
-              <h3 className="text-2xl font-bold mb-3 font-unbounded">Lifelong Bonds</h3>
-              <p className="text-blue-100 font-montserrat">Start here, grow everywhere</p>
-            </div>
-          </div>
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 font-unbounded">
+            "Dinner with Strangers, Sounds crazy till you try it!"
+          </h2>
           
-          <div className="mt-12">
-            <p className="text-xl md:text-2xl font-semibold text-white mb-4 font-unbounded">
-              "Your tribe is waiting – we just help you find them."
-            </p>
-            <p className="text-blue-100 font-montserrat">
-              Join the community that believes great friendships start with great conversations
-            </p>
-          </div>
+          <p className="text-xl text-blue-100 mb-8 font-montserrat">
+            Join the community that believes great friendships start with great conversations
+          </p>
+          
+          <Button 
+            size="lg" 
+            className="bg-white text-primary hover:bg-gray-100 px-12 py-4 text-lg font-semibold font-montserrat"
+            onClick={() => window.location.href = 'https://app.youform.com/forms/efsue2vl'}
+          >
+            Reserve Your Spot Now
+          </Button>
         </div>
       </section>
 
