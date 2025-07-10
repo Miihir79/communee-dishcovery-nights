@@ -40,7 +40,7 @@ const DishcoveryEvent = () => {
           
           <p className="text-xl md:text-2xl text-gray-600 mb-4 max-w-2xl mx-auto font-montserrat leading-relaxed">
             Dinner with strangers who match your vibe. 
-            <span className="font-medium">Your best friend might be just one dinner away</span>.
+            <span className="font-medium"> Your best friend might be just one dinner away</span>.
           </p>
           
           <div className="flex flex-wrap justify-center gap-6 mb-8 text-gray-600 font-montserrat">
