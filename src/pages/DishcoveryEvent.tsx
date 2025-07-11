@@ -76,9 +76,9 @@ const DishcoveryEvent = () => {
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4 font-unbounded">What Makes Dishcoveřy Special?</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4 font-unbounded">Why Dishcoveřy?</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto font-montserrat">
-              We create carefully curated dining experiences that bring together like-minded individuals
+              Carefully curated dinners with like-minded strangers
             </p>
           </div>
 
