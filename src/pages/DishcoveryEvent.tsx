@@ -90,7 +90,7 @@ const DishcoveryEvent = () => {
               </CardHeader>
               <CardContent>
                 <p className="font-montserrat text-gray-950">
-                  Our matching algorithm pairs you with people with same vibe enusring you have a great time. PS. This is not a dating event.
+                  Our matching algorithm pairs you with people with same vibe ensuring you have a great time. PS. This is not a dating event.
                 </p>
               </CardContent>
             </Card>
